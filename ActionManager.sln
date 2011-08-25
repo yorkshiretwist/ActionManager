@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActionManager", "ActionManager.csproj", "{6887FBFE-ECDA-4AE5-A038-EBE4F4864342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{603D762E-FD7F-4705-896A-6FE4F3E25A2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6887FBFE-ECDA-4AE5-A038-EBE4F4864342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6887FBFE-ECDA-4AE5-A038-EBE4F4864342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6887FBFE-ECDA-4AE5-A038-EBE4F4864342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6887FBFE-ECDA-4AE5-A038-EBE4F4864342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{603D762E-FD7F-4705-896A-6FE4F3E25A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{603D762E-FD7F-4705-896A-6FE4F3E25A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{603D762E-FD7F-4705-896A-6FE4F3E25A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{603D762E-FD7F-4705-896A-6FE4F3E25A2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

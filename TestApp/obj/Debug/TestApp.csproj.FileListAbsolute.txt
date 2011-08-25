@@ -1,0 +1,28 @@
+H:\history\WebActions\TestApp\obj\Debug\ResolveAssemblyReference.cache
+H:\history\WebActions\TestApp\bin\TestApp.dll
+H:\history\WebActions\TestApp\bin\TestApp.pdb
+H:\history\WebActions\TestApp\bin\WebActions.dll
+H:\history\WebActions\TestApp\bin\WebActions.pdb
+H:\history\WebActions\TestApp\obj\Debug\TestApp.dll
+H:\history\WebActions\TestApp\obj\Debug\TestApp.pdb
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\obj\Debug\TestApp.dll
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\bin\TestApp.dll
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\bin\TestApp.pdb
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\bin\WebActions.dll
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\bin\WebActions.pdb
+C:\Users\ctaylor\Documents\Visual Studio 2008\Projects\WebActions\TestApp\obj\Debug\TestApp.pdb
+C:\Users\ctaylor\Desktop\WebActions\TestApp\bin\TestApp.dll
+C:\Users\ctaylor\Desktop\WebActions\TestApp\bin\TestApp.pdb
+C:\Users\ctaylor\Desktop\WebActions\TestApp\bin\WebActions.dll
+C:\Users\ctaylor\Desktop\WebActions\TestApp\bin\WebActions.pdb
+C:\Users\ctaylor\Desktop\WebActions\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\ctaylor\Desktop\WebActions\TestApp\obj\Debug\TestApp.dll
+C:\Users\ctaylor\Desktop\WebActions\TestApp\obj\Debug\TestApp.pdb
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\bin\TestApp.dll
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\bin\TestApp.pdb
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\bin\ActionManager.dll
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\bin\ActionManager.pdb
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\TestApp.dll
+C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\TestApp.pdb
