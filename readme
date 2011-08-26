@@ -1,6 +1,6 @@
-ActionManager is an open-source system to run custom code at defined points in your .NET applications, without know where (or even if) those points occur. ActionManager is modelled on WordPress' Plugin API.
-
 # ActionManager
+
+ActionManager is an open-source system to run custom code at defined points in your .NET applications, without know where (or even if) those points occur. ActionManager is modelled on WordPress' Plugin API.
 
 ActionManager runs actions called, amazingly, Actions.  To 'hook' your method into an Action an ActionMethod (after first adding a reference to the stillbreathing.co.uk.ActionManager DLL, and optionally add a using statement at the top of your page). Each ActionMethod can be created with a single line of code:
 
@@ -26,19 +26,20 @@ You can also set a priority for the ActionMethod; higher numbers mean the Action
 
 The following properties can be set for a ActionMethod:
 
-**ActionName** (string): The name of the action this method will be called for
-**Priority** (int, default 0): The priority of this method, higher numbers are executed first
-**IsStatic** (boolean, default true): Whether this method is static, or needs instantiating
-**AssemblyName** (string): The name of the assembly containing this method
-**Namespace** (string): The namespace of this class
-**ClassName** (string): The name of the class to be called
-**MethodName** (string): The name of the method to be called
-**AcceptsParameters** (boolean, default false): Whether this method accepts parameters and returns an object
-**ThrowOnException** (boolean, default false): Whether to throw exceptions occurring in this method
+* **ActionName** (string): The name of the action this method will be called for
+* **Priority** (int, default 0): The priority of this method, higher numbers are executed first
+* **IsStatic** (boolean, default true): Whether this method is static, or needs instantiating
+* **AssemblyName** (string): The name of the assembly containing this method
+* **Namespace** (string): The namespace of this class
+* **ClassName** (string): The name of the class to be called
+* **MethodName** (string): The name of the method to be called
+* **AcceptsParameters** (boolean, default false): Whether this method accepts parameters and returns an object
+* **ThrowOnException** (boolean, default false): Whether to throw exceptions occurring in this method
 
-Licencing
+## Licencing
 
 ActionManager is released under any of the following licenses, please choose the one you wish to use:
+
 * [Creative Commons Attribution-ShareAlike 3.0 licence](http://creativecommons.org/licenses/by-sa/3.0/)
 * [Microsoft Public License](http://www.opensource.org/licenses/ms-pl.html)
 * [MIT License](http://www.opensource.org/licenses/mit-license.php)
