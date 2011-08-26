@@ -1,6 +1,6 @@
-ActionManager is an open-source system to run custom code at defined points in your .NET applications, without know where (or even if) those points occur. ActionManager is modelled on WordPress’ Plugin API.
+ActionManager is an open-source system to run custom code at defined points in your .NET applications, without know where (or even if) those points occur. ActionManager is modelled on WordPress' Plugin API.
 
-ActionManager runs actions called, amazingly, Actions.  To ‘hook’ your method into an Action an ActionMethod (after first adding a reference to the stillbreathing.co.uk.ActionManager DLL, and optionally add a using statement at the top of your page). Each ActionMethod can be created with a single line of code:
+ActionManager runs actions called, amazingly, Actions.  To 'hook' your method into an Action an ActionMethod (after first adding a reference to the stillbreathing.co.uk.ActionManager DLL, and optionally add a using statement at the top of your page). Each ActionMethod can be created with a single line of code:
 
 ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method");
 
@@ -12,7 +12,7 @@ The second overload adds another boolean parameter to set whether the target met
 
 ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true, true);
 
-Then add the ActionMethod to the Action using the ActionManager.AddMethod() method. This call to ActionManager.AddMethod() means that whenever the ‘MyAction’ action occurs, the ActionMethod defined in ‘MyMethod’ will be executed:
+Then add the ActionMethod to the Action using the ActionManager.AddMethod() method. This call to ActionManager.AddMethod() means that whenever the 'MyAction' action occurs, the ActionMethod defined in 'MyMethod' will be executed:
 
 ActionManager.AddMethod("MyAction", MyMethod);
 
