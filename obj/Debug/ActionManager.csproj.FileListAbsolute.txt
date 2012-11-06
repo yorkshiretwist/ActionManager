@@ -3,3 +3,8 @@ C:\Projects\Cubik\ExternalResources\ActionManager\bin\ActionManager.pdb
 C:\Projects\Cubik\ExternalResources\ActionManager\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Cubik\ExternalResources\ActionManager\obj\Debug\ActionManager.dll
 C:\Projects\Cubik\ExternalResources\ActionManager\obj\Debug\ActionManager.pdb
+D:\projects\ActionManager\bin\ActionManager.dll
+D:\projects\ActionManager\bin\ActionManager.pdb
+D:\projects\ActionManager\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\ActionManager\obj\Debug\ActionManager.dll
+D:\projects\ActionManager\obj\Debug\ActionManager.pdb

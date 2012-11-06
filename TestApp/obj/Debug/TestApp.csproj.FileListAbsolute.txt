@@ -26,3 +26,10 @@ C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\bin\ActionManager.pdb
 C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\TestApp.dll
 C:\Projects\Cubik\ExternalResources\ActionManager\TestApp\obj\Debug\TestApp.pdb
+D:\projects\ActionManager\TestApp\bin\TestApp.dll
+D:\projects\ActionManager\TestApp\bin\TestApp.pdb
+D:\projects\ActionManager\TestApp\bin\ActionManager.dll
+D:\projects\ActionManager\TestApp\bin\ActionManager.pdb
+D:\projects\ActionManager\TestApp\obj\Debug\ResolveAssemblyReference.cache
+D:\projects\ActionManager\TestApp\obj\Debug\TestApp.dll
+D:\projects\ActionManager\TestApp\obj\Debug\TestApp.pdb

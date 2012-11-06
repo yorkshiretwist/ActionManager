@@ -196,7 +196,7 @@ namespace stillbreathing.co.uk.ActionManager
         /// <param name="targetMethod">A string reference to the target method (e.g. "Namespace.Namespace.Class.Method")</param>
         public ActionMethod(string targetMethod)
         {
-            CreateActionMethod(targetMethod, true);
+            CreateActionMethod(targetMethod, false);
         }
         /// <summary>
         /// Create a new ActionMethod
@@ -233,7 +233,7 @@ namespace stillbreathing.co.uk.ActionManager
         /// <summary>
         /// The priority of this method, higher numbers are executed first
         /// </summary>
-        public int Priority = 0;
+        public int Priority;
 
         /// <summary>
         /// Whether this method is static, or needs instantiating

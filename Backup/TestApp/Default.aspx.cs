@@ -37,7 +37,7 @@ namespace TestApp
             // tests with the object parameter
 
             // same namespace, static
-            ActionMethod Test5 = new ActionMethod("TestApp.StaticMethods.WithObject");
+            ActionMethod Test5 = new ActionMethod("TestApp.StaticMethods.WithObject", true, true);
             ActionManager.AddMethod("TestActionWithObject", Test5);
 
             // same namespace, instantiated
@@ -45,6 +45,7 @@ namespace TestApp
             Test6.Namespace = "TestApp";
             Test6.ClassName = "Methods";
             Test6.MethodName = "WithObject";
+            Test6.AcceptsParameters = true;
             Test6.IsStatic = false;
             ActionManager.AddMethod("TestActionWithObject", Test6);
 
@@ -53,6 +54,7 @@ namespace TestApp
             Test7.Namespace = "Namespace1";
             Test7.ClassName = "StaticMethods";
             Test7.MethodName = "WithObject";
+            Test7.AcceptsParameters = true;
             ActionManager.AddMethod("TestActionWithObject", Test7);
 
             // different namespace, instantiated
@@ -60,6 +62,7 @@ namespace TestApp
             Test8.Namespace = "Namespace2";
             Test8.ClassName = "Methods";
             Test8.MethodName = "WithObject";
+            Test8.AcceptsParameters = true;
             Test8.IsStatic = false;
             ActionManager.AddMethod("TestActionWithObject", Test8);
 
@@ -80,6 +83,7 @@ namespace TestApp
             AddPerson.ClassName = "PersonMethods";
             AddPerson.MethodName = "OnAddPerson";
             AddPerson.IsStatic = false;
+            AddPerson.AcceptsParameters = true;
             AddPerson.ThrowOnException = true;
             ActionManager.AddMethod("AddPerson", AddPerson);
 

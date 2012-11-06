@@ -19,9 +19,13 @@
     
     <code>ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method");</code>
     
-    <p>There is one overload for the ActionMethod class constructor. Add a boolean parameter to set whether the target class/method is static (and therefore does not need to be instantiated). This ActionMethod is not static, and so needs to be instantiated:</p>
+    <p>There are two overloads for the ActionMethod class. The first accepts a boolean parameter to set whether the target class/method is static (and therefore does not need to be instantiated):</p>
     
-    <code>ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", false);</code>
+    <code>ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true);</code>
+    
+    <p>The second overload adds another boolean parameter to set whether the target method accepts an object parameter. The object parameter can be modified and returned to the calling Action:</p>
+    
+    <code>ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true, true);</code>
 
     <p>Then add the ActionMethod to the Action using the ActionManager.AddMethod() method. This call to ActionManager.AddMethod() means that whenever the 'MyAction' action occurs, the ActionMethod defined in 'MyMethod' will be executed:</p>
 
@@ -43,6 +47,7 @@
         <li><strong>Namespace</strong> (string): The namespace of this class</li>
         <li><strong>ClassName</strong> (string): The name of the class to be called</li>
         <li><strong>MethodName</strong> (string): The name of the method to be called</li>
+        <li><strong>AcceptsParameters</strong> (boolean, default false): Whether this method accepts parameters and returns an object</li>
         <li><strong>ThrowOnException</strong> (boolean, default false): Whether to throw exceptions occurring in this method</li>
     </ul>
     
