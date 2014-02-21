@@ -1,28 +1,30 @@
-# ActionManager
+ActionManager
+=============
 
 ActionManager is an open-source system to run custom code at defined points in your .NET applications, without know where (or even if) those points occur. ActionManager is modelled on WordPress' Plugin API.
 
 ActionManager runs actions called, amazingly, Actions.  To 'hook' your method into an Action an ActionMethod (after first adding a reference to the stillbreathing.co.uk.ActionManager DLL, and optionally add a using statement at the top of your page). Each ActionMethod can be created with a single line of code:
 
-    ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method");
+`ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method");`
 
 There are two overloads for the ActionMethod class. The first accepts a boolean parameter to set whether the target class/method is static (and therefore does not need to be instantiated):
 
-    ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true);
+`ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true);`
 
 The second overload adds another boolean parameter to set whether the target method accepts an object parameter. The object parameter can be modified and returned to the calling Action:
 
-    ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true, true);
+`ActionMethod MyMethod = new ActionMethod("Namespace.Class.Method", true, true);`
 
 Then add the ActionMethod to the Action using the ActionManager.AddMethod() method. This call to ActionManager.AddMethod() means that whenever the 'MyAction' action occurs, the ActionMethod defined in 'MyMethod' will be executed:
 
-    ActionManager.AddMethod("MyAction", MyMethod);
+`ActionManager.AddMethod("MyAction", MyMethod);`
 
 You can also set a priority for the ActionMethod; higher numbers mean the ActionMethod will run before other ActionMethods for this Action with a lower priority:
 
-    ActionManager.AddMethod("MyAction", MyMethod, 1000);
+`ActionManager.AddMethod("MyAction", MyMethod, 1000);`
 
-## ActionMethod properties
+ActionMethod properties
+-----------------------
 
 The following properties can be set for a ActionMethod:
 
@@ -36,7 +38,8 @@ The following properties can be set for a ActionMethod:
 * **AcceptsParameters** (boolean, default false): Whether this method accepts parameters and returns an object
 * **ThrowOnException** (boolean, default false): Whether to throw exceptions occurring in this method
 
-## Licencing
+Licencing
+---------
 
 ActionManager is released under any of the following licenses, please choose the one you wish to use:
 
